@@ -1,11 +1,11 @@
 ------ NorthwindTraders -------
 
-The project was a contest by Maven Analytics.  
+The project was a contest by Maven Analytics (https://www.mavenanalytics.io/challenges/maven-northwind-challenge/24?utm_source=linkedin&utm_campaign=mavennorthwindchallenge_li_maven).  
 All of the files presented by Maven are in the Data directory.
 I added the HR_Recursion.py and the NorthwindTraders.py file.
-The HR_Recursion.py file is demonstrate using a General Tree
+The HR_Recursion.py file demonstrates using a General Tree
 as a way to build a recursive hierarchy for the employee data
-set that is in the Data folder. The csv_test.csv file 
+set in the Data folder. The csv_test.csv file 
 is result of running the HR_Recursion file. The NorthwindTraders.py file has
 the code that was used to generate the data.csv file in the Data folder
 which was used to create the Tableau dashboard.  
