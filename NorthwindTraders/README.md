@@ -20,3 +20,6 @@ on KPI for the shipping business.  Maven provided the following data sets:
 5. orders.csv
 6. products.csv
 7. shippers.csv
+
+Here is the link https://public.tableau.com/app/profile/cole.smith/viz/MavenNorthwindChallenge_16864990533110/NorthwindDashboard
+to the dashboard where the data.csv file is used.
