@@ -1,5 +1,3 @@
--------READ ME-------
-
-The portfolios repo is dedicated to my as a business intelligence consultant.
-Each folder represents a project and any files dedicated to the project.  THe folders
-will also have a readme to explain the project.
+<h2>Cole Smith's Projects</h2>
+<p style="font-size: .75em;">The repo is dedicated to my portfolio projects. Below is a list of the projects in the repo:</p>
+<p style="font-size: .75em;">1. <a href="https://github.com/cosmith1622/Portfolio/tree/master/NorthwindTraders" target="_blank" rel="noopener"><b>NorthwindTraders</b></a> - The project was dedicated to completing the&nbsp;<a href="https://www.mavenanalytics.io/challenges/maven-northwind-challenge/24?utm_source=linkedin&amp;utm_campaign=mavennorthwindchallenge_li_maven" target="_blank" rel="noopener">Maven Analytics Contest</a> contest.  The primary tasks completed for the project was data analysis, structuring the hierarchial data and the dashboard.</p>

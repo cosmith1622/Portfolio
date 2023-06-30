@@ -1,25 +1,4 @@
------- NorthwindTraders -------
-
-The project was a contest by Maven Analytics (https://www.mavenanalytics.io/challenges/maven-northwind-challenge/24?utm_source=linkedin&utm_campaign=mavennorthwindchallenge_li_maven).  
-All of the files presented by Maven are in the Data directory.
-I added the HR_Recursion.py and the NorthwindTraders.py file.
-The HR_Recursion.py file demonstrates using a General Tree
-as a way to build a recursive hierarchy for the employee data
-set in the Data folder. The csv_test.csv file 
-is result of running the HR_Recursion file. The NorthwindTraders.py file has
-the code that was used to generate the data.csv file in the Data folder
-which was used to create the Tableau dashboard.  
-
-The goal of the contest was to build a dashboard that provided insight 
-on KPI for the shipping business.  Maven provided the following data sets:
-
-1. categories.csv
-2. customers.csv
-3. employees.csv
-4. order_details.csv
-5. orders.csv
-6. products.csv
-7. shippers.csv
-
-Here is the link https://public.tableau.com/app/profile/cole.smith/viz/MavenNorthwindChallenge_16864990533110/NorthwindDashboard
-to the dashboard where the data.csv file is used.
+<h2>Northwind Traders</h2>
+<p style="font-size: .75em;">The project was for completing the Northwind Traders contest presented by <a href="https://www.mavenanalytics.io/challenges/maven-northwind-challenge/24?utm_source=linkedin&amp;utm_campaign=mavennorthwindchallenge_li_maven" target="_blank" rel="noopener"><strong>Maven Analytics</strong></a></p>
+<p style="font-size: .75em;">In the root folder there are two files the HR_Recursion.py file and the NorthwindTraders.py file. The NorthwindTrades file has any data transformations and the merging of the csv files to create the data set for the <a href="https://public.tableau.com/app/profile/cole.smith/viz/MavenNorthwindChallenge_16864990533110/NorthwindDashboard" target="_blank" rel="noopener"><strong>dashboard</strong></a></p>
+<p style="font-size: .75em;">The HR_Recursion file is dedicated to the code for building a General Tree data structure to house the hierarchial employee data based on the employee csv in the <a href="https://github.com/cosmith1622/Portfolio/tree/master/NorthwindTraders/Data" target="_blank" rel="noopener"><strong>Data</strong></a> directory. The employees csv file in the Data directory is the raw data in the transformation. If you want to see the results of the data structure go to the csv_test.csv file at the root of the NorthwindTraders directory. The dashboard referenced above uses a recurisve with statment in sql to enhance the data set for the dashboard.&nbsp; The HR_Recursion was used as different way to perform the same task.</p>
