@@ -51,7 +51,7 @@ class GeneralTree:
                     self.nodes.append(Node(obj))
                     self.data.append(row)
                     if row[self.parent_column] == '':
-                        self.root = Node(obj)
+                        self.root = self.nodes[len(self.nodes) - 1]
                 counter += 1
 
     def create_map(self,root,queue=[]):
@@ -70,9 +70,9 @@ class GeneralTree:
         node = root
         nodes = self.find_child_id(list(node.data.values())[self.id_column])
         queue.extend(nodes)
+        self.nodes.pop(self.nodes.index(node))
         node.children = nodes
         self.nodes.append(node)
-        self.nodes = self.nodes[1:]
         if len(queue) == 0:
             return
         elif len(nodes) == 0:
