@@ -1,5 +1,4 @@
 import csv
-import pandas as pd
 
 class GeneralTree:
 
@@ -68,12 +67,12 @@ class GeneralTree:
             queue: list used to store the nodes that need to mapped to the hierarchy default empty list
         
         """
-
-
         node = root
         nodes = self.find_child_id(list(node.data.values())[self.id_column])
         queue.extend(nodes)
         node.children = nodes
+        self.nodes.append(node)
+        self.nodes = self.nodes[1:]
         if len(queue) == 0:
             return
         elif len(nodes) == 0:
